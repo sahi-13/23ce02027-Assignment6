@@ -17,7 +17,7 @@ int main()
     { 
         int prime=1;
         int limit=sqrt(i);
-        for(j=2;j<i;j++)
+        for(j=2;j<=limit;j++)
         {   
             if(i%j==0)
             {
